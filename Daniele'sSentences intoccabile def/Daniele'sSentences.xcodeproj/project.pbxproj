@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		474B007A27FA368C0047B59B /* Daniele_sSentencesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B007927FA368C0047B59B /* Daniele_sSentencesApp.swift */; };
+		474B007C27FA368C0047B59B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B007B27FA368C0047B59B /* ListView.swift */; };
+		474B007E27FA368D0047B59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474B007D27FA368D0047B59B /* Assets.xcassets */; };
+		474B008127FA368D0047B59B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474B008027FA368D0047B59B /* Preview Assets.xcassets */; };
+		474B008A27FA377D0047B59B /* SentenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B008927FA377D0047B59B /* SentenceDetails.swift */; };
+		474B008C27FA37EA0047B59B /* SentenceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B008B27FA37EA0047B59B /* SentenceProvider.swift */; };
+		474B008E27FA3C690047B59B /* SentencesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B008D27FA3C690047B59B /* SentencesDetailsView.swift */; };
+		474B009627FA405A0047B59B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474B009527FA405A0047B59B /* WidgetKit.framework */; };
+		474B009827FA405A0047B59B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474B009727FA405A0047B59B /* SwiftUI.framework */; };
+		474B009B27FA405A0047B59B /* DanieleSentences_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B009A27FA405A0047B59B /* DanieleSentences_Widget.swift */; };
+		474B009E27FA405B0047B59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474B009D27FA405B0047B59B /* Assets.xcassets */; };
+		474B00A027FA405B0047B59B /* DanieleSentences_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 474B009C27FA405A0047B59B /* DanieleSentences_Widget.intentdefinition */; };
+		474B00A127FA405B0047B59B /* DanieleSentences_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 474B009C27FA405A0047B59B /* DanieleSentences_Widget.intentdefinition */; };
+		474B00A427FA405B0047B59B /* DanieleSentences WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 474B009327FA405A0047B59B /* DanieleSentences WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		474B00AB27FA410B0047B59B /* SentenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B008927FA377D0047B59B /* SentenceDetails.swift */; };
+		474B00AC27FA410D0047B59B /* SentenceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B008B27FA37EA0047B59B /* SentenceProvider.swift */; };
+		474B00AF27FA41980047B59B /* SentenceWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B00AE27FA41980047B59B /* SentenceWidgetView.swift */; };
+		474B00B027FA475F0047B59B /* SentenceWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B00AE27FA41980047B59B /* SentenceWidgetView.swift */; };
+		6456D68827FB72BC00DD6C25 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B007B27FA368C0047B59B /* ListView.swift */; };
+		6456D68927FB72C200DD6C25 /* SentencesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B008D27FA3C690047B59B /* SentencesDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		474B00A227FA405B0047B59B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474B006E27FA368C0047B59B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474B009227FA405A0047B59B;
+			remoteInfo = "DanieleSentences WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		474B00A827FA405B0047B59B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				474B00A427FA405B0047B59B /* DanieleSentences WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		474B007627FA368C0047B59B /* Daniele'sSentences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daniele'sSentences.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		474B007927FA368C0047B59B /* Daniele_sSentencesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daniele_sSentencesApp.swift; sourceTree = "<group>"; };
+		474B007B27FA368C0047B59B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		474B007D27FA368D0047B59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		474B008027FA368D0047B59B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		474B008927FA377D0047B59B /* SentenceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceDetails.swift; sourceTree = "<group>"; };
+		474B008B27FA37EA0047B59B /* SentenceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceProvider.swift; sourceTree = "<group>"; };
+		474B008D27FA3C690047B59B /* SentencesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentencesDetailsView.swift; sourceTree = "<group>"; };
+		474B009327FA405A0047B59B /* DanieleSentences WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DanieleSentences WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		474B009527FA405A0047B59B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		474B009727FA405A0047B59B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		474B009A27FA405A0047B59B /* DanieleSentences_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanieleSentences_Widget.swift; sourceTree = "<group>"; };
+		474B009C27FA405A0047B59B /* DanieleSentences_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DanieleSentences_Widget.intentdefinition; sourceTree = "<group>"; };
+		474B009D27FA405B0047B59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		474B009F27FA405B0047B59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474B00AE27FA41980047B59B /* SentenceWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceWidgetView.swift; sourceTree = "<group>"; };
+		6456D68527FB6A8700DD6C25 /* Daniele-sSentences-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Daniele-sSentences-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		474B007327FA368C0047B59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474B009027FA405A0047B59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474B009827FA405A0047B59B /* SwiftUI.framework in Frameworks */,
+				474B009627FA405A0047B59B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		474B006D27FA368C0047B59B = {
+			isa = PBXGroup;
+			children = (
+				474B007827FA368C0047B59B /* Daniele'sSentences */,
+				474B009927FA405A0047B59B /* DanieleSentences Widget */,
+				474B009427FA405A0047B59B /* Frameworks */,
+				474B007727FA368C0047B59B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		474B007727FA368C0047B59B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				474B007627FA368C0047B59B /* Daniele'sSentences.app */,
+				474B009327FA405A0047B59B /* DanieleSentences WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		474B007827FA368C0047B59B /* Daniele'sSentences */ = {
+			isa = PBXGroup;
+			children = (
+				6456D68527FB6A8700DD6C25 /* Daniele-sSentences-Info.plist */,
+				474B007927FA368C0047B59B /* Daniele_sSentencesApp.swift */,
+				474B007B27FA368C0047B59B /* ListView.swift */,
+				474B008927FA377D0047B59B /* SentenceDetails.swift */,
+				474B008B27FA37EA0047B59B /* SentenceProvider.swift */,
+				474B008D27FA3C690047B59B /* SentencesDetailsView.swift */,
+				474B00AE27FA41980047B59B /* SentenceWidgetView.swift */,
+				474B007D27FA368D0047B59B /* Assets.xcassets */,
+				474B007F27FA368D0047B59B /* Preview Content */,
+			);
+			path = "Daniele'sSentences";
+			sourceTree = "<group>";
+		};
+		474B007F27FA368D0047B59B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				474B008027FA368D0047B59B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		474B009427FA405A0047B59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				474B009527FA405A0047B59B /* WidgetKit.framework */,
+				474B009727FA405A0047B59B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		474B009927FA405A0047B59B /* DanieleSentences Widget */ = {
+			isa = PBXGroup;
+			children = (
+				474B009A27FA405A0047B59B /* DanieleSentences_Widget.swift */,
+				474B009C27FA405A0047B59B /* DanieleSentences_Widget.intentdefinition */,
+				474B009D27FA405B0047B59B /* Assets.xcassets */,
+				474B009F27FA405B0047B59B /* Info.plist */,
+			);
+			path = "DanieleSentences Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		474B007527FA368C0047B59B /* Daniele'sSentences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474B008427FA368D0047B59B /* Build configuration list for PBXNativeTarget "Daniele'sSentences" */;
+			buildPhases = (
+				474B007227FA368C0047B59B /* Sources */,
+				474B007327FA368C0047B59B /* Frameworks */,
+				474B007427FA368C0047B59B /* Resources */,
+				474B00A827FA405B0047B59B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474B00A327FA405B0047B59B /* PBXTargetDependency */,
+			);
+			name = "Daniele'sSentences";
+			productName = "Daniele'sSentences";
+			productReference = 474B007627FA368C0047B59B /* Daniele'sSentences.app */;
+			productType = "com.apple.product-type.application";
+		};
+		474B009227FA405A0047B59B /* DanieleSentences WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474B00A527FA405B0047B59B /* Build configuration list for PBXNativeTarget "DanieleSentences WidgetExtension" */;
+			buildPhases = (
+				474B008F27FA405A0047B59B /* Sources */,
+				474B009027FA405A0047B59B /* Frameworks */,
+				474B009127FA405A0047B59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DanieleSentences WidgetExtension";
+			productName = "DanieleSentences WidgetExtension";
+			productReference = 474B009327FA405A0047B59B /* DanieleSentences WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		474B006E27FA368C0047B59B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					474B007527FA368C0047B59B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					474B009227FA405A0047B59B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 474B007127FA368C0047B59B /* Build configuration list for PBXProject "Daniele'sSentences" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 474B006D27FA368C0047B59B;
+			productRefGroup = 474B007727FA368C0047B59B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474B007527FA368C0047B59B /* Daniele'sSentences */,
+				474B009227FA405A0047B59B /* DanieleSentences WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		474B007427FA368C0047B59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474B008127FA368D0047B59B /* Preview Assets.xcassets in Resources */,
+				474B007E27FA368D0047B59B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474B009127FA405A0047B59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474B009E27FA405B0047B59B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		474B007227FA368C0047B59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474B007C27FA368C0047B59B /* ListView.swift in Sources */,
+				474B008C27FA37EA0047B59B /* SentenceProvider.swift in Sources */,
+				474B00A127FA405B0047B59B /* DanieleSentences_Widget.intentdefinition in Sources */,
+				474B00AF27FA41980047B59B /* SentenceWidgetView.swift in Sources */,
+				474B008E27FA3C690047B59B /* SentencesDetailsView.swift in Sources */,
+				474B008A27FA377D0047B59B /* SentenceDetails.swift in Sources */,
+				474B007A27FA368C0047B59B /* Daniele_sSentencesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474B008F27FA405A0047B59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474B00AB27FA410B0047B59B /* SentenceDetails.swift in Sources */,
+				474B00AC27FA410D0047B59B /* SentenceProvider.swift in Sources */,
+				474B00A027FA405B0047B59B /* DanieleSentences_Widget.intentdefinition in Sources */,
+				6456D68827FB72BC00DD6C25 /* ListView.swift in Sources */,
+				474B00B027FA475F0047B59B /* SentenceWidgetView.swift in Sources */,
+				6456D68927FB72C200DD6C25 /* SentencesDetailsView.swift in Sources */,
+				474B009B27FA405A0047B59B /* DanieleSentences_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		474B00A327FA405B0047B59B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 474B009227FA405A0047B59B /* DanieleSentences WidgetExtension */;
+			targetProxy = 474B00A227FA405B0047B59B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		474B008227FA368D0047B59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		474B008327FA368D0047B59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		474B008527FA368D0047B59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Daniele'sSentences/Preview Content\"";
+				DEVELOPMENT_TEAM = 9X7AJ92B2C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daniele-sSentences-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = theCoscience;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieledenisi.Daniele-sSentences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		474B008627FA368D0047B59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Daniele'sSentences/Preview Content\"";
+				DEVELOPMENT_TEAM = 9X7AJ92B2C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daniele-sSentences-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = theCoscience;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieledenisi.Daniele-sSentences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		474B00A627FA405B0047B59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X7AJ92B2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DanieleSentences Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DanieleSentences Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieledenisi.Daniele-sSentences.DanieleSentences-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		474B00A727FA405B0047B59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X7AJ92B2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DanieleSentences Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DanieleSentences Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieledenisi.Daniele-sSentences.DanieleSentences-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		474B007127FA368C0047B59B /* Build configuration list for PBXProject "Daniele'sSentences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474B008227FA368D0047B59B /* Debug */,
+				474B008327FA368D0047B59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474B008427FA368D0047B59B /* Build configuration list for PBXNativeTarget "Daniele'sSentences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474B008527FA368D0047B59B /* Debug */,
+				474B008627FA368D0047B59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474B00A527FA405B0047B59B /* Build configuration list for PBXNativeTarget "DanieleSentences WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474B00A627FA405B0047B59B /* Debug */,
+				474B00A727FA405B0047B59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 474B006E27FA368C0047B59B /* Project object */;
+}

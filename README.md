@@ -1,4 +1,4 @@
-# **theCoscience**
+# **Introduction**
 
 Daniele’s Conscience born as a collection of all the sentences that I’m told quite often, from a large amount of people, everyday. 
 
@@ -25,10 +25,14 @@ At this point your widget is already initialized and working, but only display t
 
 At this point, selecting ``Include Configuration Intent``, allows you to create a configurable Widget, in fact initialize already all the function you need, but REMEMBER: **if you don't need a configurable widget, don't select it!**
 
-
-
+## **theCoscience Widget**
 
 So this is the result:
 
 ![IMG_3945](https://user-images.githubusercontent.com/92307268/162184684-0a865145-3d0b-4d2e-ac4a-c284be49646c.jpg)
-You can use this app as basis for your project.
+
+As already said, I included for this widget the Configuration Intent, this allowed me to do this:
+
+![IMG_3952](https://user-images.githubusercontent.com/92307268/162321664-4612b53a-d682-41ab-9651-898510710631.jpg)
+
+Switching on this toggle you can choose to display or hide the emoji. Obviously this is only an example of what you can do with the Intents, but is a good starting point in order to understand how to handle this kind of data. You can use this app as basis for your project maybe trying to customize it a bit and see what you can do with intents. I will also add comments in the code so that you can easly go through them and understanding the behaviour of WidgetKit.

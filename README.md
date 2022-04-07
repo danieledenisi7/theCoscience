@@ -6,15 +6,16 @@ I wanted to collect them in order to have a sort of digital conscience that alwa
 
 The App is just a collection of sentences, and the widget displays a randomic one among them. I made the widget configurable so that you can choose to hide the emoji.
 
-## **Widget**
+## **About Widgets**
 
 The widget display one randomic sentence among the ones contained in the SentenceProvider.swift file, that has already the related emoji and background color. It is also configurable, in fact you can choose to hide the emoji, and display only the sentence, but we'll see this later, now I'll show you how to implement Widgets in your own projects.
 
-For creating the widget I used the Apple's WidgetKit framework, the implementation of widgets is really easy, you just need to go in ``File -> New -> Target``
+For creating the widget I used the Apple's WidgetKit framework, the implementation of widgets is really easy, you just need to go in 
+``File -> New -> Target``
 
 <img width="573" alt="Schermata 2022-04-07 alle 13 12 44" src="https://user-images.githubusercontent.com/92307268/162187362-0b11acdd-9860-4d7f-9e97-47e1d1dcd343.png">
 
-And then click on Widget Extension
+And then click on ``Widget Extension``
 
 <img width="733" alt="Schermata 2022-04-07 alle 13 13 12" src="https://user-images.githubusercontent.com/92307268/162187761-446dde79-7c7e-492a-b297-f9649e443dce.png">
 
@@ -22,7 +23,8 @@ At this point your widget is already initialized and working, but only display t
 
 <img width="733" alt="Schermata 2022-04-07 alle 22 26 52" src="https://user-images.githubusercontent.com/92307268/162290179-1ff3e1ea-2f45-44fa-b56d-840d4f5f192f.png">
 
-At this point, selecting "Include Configuration Intent", allows you to create a configurable Widget, in fact initialize already all the function you need, but REMEMBER: **if you don't need a configurable widget, don't select it!**
+At this point, selecting ``Include Configuration Intent``, allows you to create a configurable Widget, in fact initialize already all the function you need, but REMEMBER: **if you don't need a configurable widget, don't select it!**
+
 
 
 

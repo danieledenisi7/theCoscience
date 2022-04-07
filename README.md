@@ -10,7 +10,7 @@ The App is just a collection of sentences, and the widget displays a randomic on
 
 The widget display one randomic sentence among the ones contained in the SentenceProvider.swift file, that has already the related emoji and background color. It is also configurable, in fact you can choose to hide the emoji, and display only the sentence, but we'll see this later, now I'll show you how to implement Widgets in your own projects.
 
-For creating the widget I used the Apple's WidgetKit framework, the implementation of widgets is really easy, you just need to go in 'File -> New -> Target'
+For creating the widget I used the Apple's WidgetKit framework, the implementation of widgets is really easy, you just need to go in ``File -> New -> Target``
 
 <img width="573" alt="Schermata 2022-04-07 alle 13 12 44" src="https://user-images.githubusercontent.com/92307268/162187362-0b11acdd-9860-4d7f-9e97-47e1d1dcd343.png">
 

@@ -12,10 +12,11 @@ public struct SentenceDetails {
   public var emoji: String
   public var name: String
   public var description: String
+    public var color :UIColor
   public var shouldHideEmoji: Bool?
     
 
-//  public let colorbg: String?
+  
 }
 
 // MARK: - Identifiable // since we will display different emoji, the emoji string itself can be used as the id.

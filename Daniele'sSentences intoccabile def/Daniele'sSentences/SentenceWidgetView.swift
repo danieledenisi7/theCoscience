@@ -14,7 +14,7 @@ struct SentenceWidgetView: View {
     var body: some View {
         
         ZStack {
-              Color(UIColor.systemGreen)
+            Color(sentenceDetails.color)
               VStack {
                 Text(sentenceDetails.emoji)
                   .font(.system(size: 55))
@@ -35,6 +35,7 @@ struct SentenceWidgetView_Previews: PreviewProvider {
         SentenceWidgetView(sentenceDetails: SentenceDetails(
             emoji: "😅",
             name: "Daniele, where are you?",
-            description: "Typical question my friends ask me during the morining or before going out."))
+            description: "Typical question my friends ask me during the morining or before going out.",
+             color: UIColor.systemIndigo))
     }
 }

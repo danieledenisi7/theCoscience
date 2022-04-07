@@ -14,27 +14,33 @@ struct SentencesDetailsView: View {
     var body: some View {
         
         ZStack {
-          // Background color
-          Color(UIColor.systemGreen).edgesIgnoringSafeArea(.all)
-
-          // Emoji data
-          VStack {
-            VStack(alignment: .leading) {
-              HStack {
-                Text("\(sentenceDetails.name)" + " " + "\(sentenceDetails.emoji)")
-                  .font(.largeTitle)
-                  .bold()
-              }
-              .padding()
-
-              Text(sentenceDetails.description)
-                .padding([.leading, .trailing, .bottom])
-                .font(.title)
-            }
-          }
-          .foregroundColor(.white)
-        }
-    }
+            
+            // Background color
+            Color(sentenceDetails.color)
+            
+            // Emoji data
+            VStack {
+                
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("\(sentenceDetails.name)" + " " + "\(sentenceDetails.emoji)")
+                            .font(.largeTitle)
+                            .bold()
+                    }
+                    .padding()
+                    
+                    Text(sentenceDetails.description)
+                        .padding([.leading, .trailing, .bottom])
+                        .font(.title)
+                    
+                } // :VStack (internal one)
+                .foregroundColor(.white)
+                
+            }// :VStack (esternal one)
+            
+        }.ignoresSafeArea()
+         
+    } // :View
 }
 
 struct SentencesDetailsView_Previews: PreviewProvider {
@@ -42,6 +48,7 @@ struct SentencesDetailsView_Previews: PreviewProvider {
         SentencesDetailsView(sentenceDetails: SentenceDetails(
             emoji: "😅",
             name: "Daniele, where are you?",
-            description: "Typical question my friends ask me during the morining or before going out."))
+            description: "Typical question my friends ask me during the morining or before going out.",
+            color: UIColor.systemBlue))
     }
 }

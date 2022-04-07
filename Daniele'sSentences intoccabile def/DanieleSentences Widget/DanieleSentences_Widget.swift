@@ -31,7 +31,6 @@ struct Provider: IntentTimelineProvider {
 struct SimpleEntry: TimelineEntry {
     let date: Date
     public let sentenceDetails: SentenceDetails
-//    var emoji: String = SentenceDetails().emoji as
     var shouldHideEmoji: Bool = true
    
 }
@@ -47,7 +46,7 @@ struct DanieleSentences_WidgetEntryView : View {
         }
         else {
             ZStack{
-                Color(UIColor.systemGreen)
+                Color(entry.sentenceDetails.color)
                 Text(entry.sentenceDetails.name)
                     .font(.headline)
                     .foregroundColor(.white)
